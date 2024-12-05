@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #83a4d4, #b6fbff);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background: #ffffffd9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .strength-meter {
+    height: 10px;
+    width: 90%;
+    background: #ddd;
+    border-radius: 5px;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #strength-bar {
+    height: 100%;
+    width: 0;
+    background: red;
+    border-radius: 5px;
+    transition: width 0.3s, background 0.3s;
+  }
+  
+  #feedback {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  canvas {
+    margin-top: 20px;
+  }
+  
